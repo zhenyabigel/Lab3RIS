@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>JPA Example</display-name>
+    <module>
+        <web>
+            <web-uri>songs.war</web-uri>
+            <context-root>/songs</context-root>
+        </web>
+    </module>
+
+    <module>
+        <ejb>songs.jar</ejb>
+    </module>
+
+</application>
